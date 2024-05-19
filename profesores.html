@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesores</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Profesores</h1>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Buscar Profesor">
+            <button class="search-button"><img src="images/search_icon.png" alt="Buscar"></button>
+        </div>
+        <div id="result" class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Email</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se añadirá el contenido dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+        <button class="button" onclick="showCreateForm('professors')">Agregar nuevo profesor</button>
+    </div>
+</body>
+</html>
